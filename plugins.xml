@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
   <pyqgis_plugin
-    name="Layer2SHP"
+    name="layer2shp"
     version="3.10.3"
     plugin_id="1001"
     experimental="False"
@@ -14,7 +14,6 @@
     tags="python,layer,shp,output"
     homepage="https://cue.gozaru.jp/"
     repository="https://cue-bu.github.io/cue-bu/plugins.xml"
-    tracker=""
     icon="https://cue-bu.github.io/cue-bu/icon/lyr2shp.png"
     download_url="https://cue-bu.github.io/cue-bu/layer2shp.zip"
     create_date="2025-04-01"
@@ -22,4 +21,3 @@
     description="Layer to Shapefile plugin 表示しているレイヤを一括でshpとして出力します。"
   />
 </plugins>
-
