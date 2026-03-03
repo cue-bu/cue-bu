@@ -2,7 +2,7 @@
 <plugins>
   <pyqgis_plugin
       name="layer2shp"
-      version="3.10.3"
+      version="1.0.0"
       plugin_id="1001"
       experimental="False"
       deprecated="False"
