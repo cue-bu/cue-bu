@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin
+  <plugin
       name="layer2shp"
       version="1.0.0"
       plugin_id="1001"
@@ -21,6 +21,6 @@
       create_date="2025-04-01"
       update_date="2026-03-03"
       description="Layer to Shapefile plugin　表示しているレイヤを一括でshpとして出力します。">
-  </pyqgis_plugin>
+  </plugin>
 </plugins>
 
