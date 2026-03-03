@@ -9,12 +9,22 @@
 
     <about><![CDATA[
 レイヤパネルの全レイヤをShape形式でエクスポートします。
+プラグインアイコンをクリックすると、レイヤ名をファイル名としたshpファイルが保存されます。
+レイヤパネル内に複数同じ名前のレイヤが存在する場合は、レイヤパネル上で上から順に _数字 を末尾に付与します。
+既に同じファイル名が存在する場合も、末尾の数字を連番にしてファイル名が作成されます。
+ラスタレイヤや未形式のレイヤについては保存しません。
     ]]></about>
 
     <author_name>S.hiramatsu</author_name>
     <email>cue.bu2025@gmail.com</email>
 
     <homepage>https://cue.gozaru.jp/</homepage>
+    <repository>https://cue-bu.github.io/cue-bu/plugins.xml</repository>
+    <tracker></tracker>
+
+    <tags>python,layer,shp,output</tags>
+
+    <icon>https://cue-bu.github.io/cue-bu/icon/lyr2shp.png</icon>
 
     <version>3.10.3</version>
     <qgis_minimum_version>3.0</qgis_minimum_version>
@@ -25,6 +35,13 @@
 
     <experimental>False</experimental>
     <deprecated>False</deprecated>
+
+    <create_date>2025-04-01</create_date>
+    <update_date>2026-03-03</update_date>
+
+    <changelog><![CDATA[
+初回公開版
+    ]]></changelog>
 
   </pyqgis_plugin>
 
